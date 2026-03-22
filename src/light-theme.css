@@ -1,0 +1,33 @@
+/* LIGHT THEME */
+body.light-theme {
+    background: #f8f9fa; /* light grey background */
+    color: #1f2937; /* dark text */
+}
+
+body.light-theme .navbar {
+    background: #ffffff;
+}
+
+body.light-theme .navbar a {
+    color: #1f2937 !important;
+}
+
+body.light-theme .card-custom {
+    background: #ffffff;
+    color: #1f2937;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+body.light-theme .hero {
+    background: #e2e8f0;
+}
+
+body.light-theme footer {
+    background: #f1f5f9;
+    color: #1f2937;
+}
+
+body.light-theme footer a {
+    color: #1f2937 !important;
+}

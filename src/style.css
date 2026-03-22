@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom right, #9ad1d4, #d3f0f3);
+}
+
+.profile img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid #cceff3;
+}
+
+h1 { margin: 10px 0; }
+
+.tagline {
+    color: #555;
+}
+
+/* BUTTONS */
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid teal;
+    text-decoration: none;
+    color: teal;
+}
+
+.buttons a:hover {
+    background: teal;
+    color: white;
+}
+
+/* SECTIONS */
+section {
+    padding: 40px 20px;
+}
+
+/* SKILLS */
+.skill-list span {
+    display: inline-block;
+    background: #eee;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+/* PROJECT CARDS */
+.card {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* CHATBOT */
+.chatbot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: purple;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.chatbox {
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    background: white;
+    padding: 15px;
+    width: 220px;
+    border-radius: 10px;
+    display: none;
+}
+
+.chatbox button {
+    margin: 5px;
+}
